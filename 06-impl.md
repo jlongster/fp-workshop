@@ -25,7 +25,7 @@ Hint: you need to manually store the accumulated value in a variable and pass it
 
 Implement `_.reduce` using recursion. No local variable definitions are allowed. Recursive functions are functions that call themselves and have a stopping case, such as:
 
-```
+```js
 function recur(n, func) {
   if(n > 0) {
     return [func(n)].concat(recur(n - 1, func));
