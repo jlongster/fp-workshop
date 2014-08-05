@@ -102,6 +102,8 @@ error('an error!');
 
 # 08-partial
 
+## Exercise 1
+
 ```js
 var _arg = {};
 
@@ -118,5 +120,16 @@ function bind2(func, context /* args... */) {
     
     return func.apply(context, args);
   }
+}
+```
+
+## Exercise 2
+
+```js
+function run(arr) {
+  var funcs = Array.prototype.slice.call(arguments, 1);
+  return _.reduce(funcs, function(acc, func) {
+    return func(acc);
+  }, arr);
 }
 ```
