@@ -13,4 +13,4 @@ function multiplyArray(arr, n) {
 }
 ```
 
-[http://jsbin.com/lidecuhu/1/edit?js,console](edit on jsbin)
+[edit on jsbin](http://jsbin.com/lidecuhu/1/edit?js,console)
