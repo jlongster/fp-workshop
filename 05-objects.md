@@ -12,7 +12,7 @@ Given the following data, calculate the average number of sales using [`_.values
 Constraint: do not create any helper functions or use a for/while loop.
 Hint: it's ok to stash the result of `_.values` into a temporary variable.
 
-```
+```js
 var sales = {
   joe: 34,
   bill: 12,
@@ -25,7 +25,7 @@ var sales = {
 
 The imperative solution looks like:
 
-```
+```js
 var i = 0;
 var avg = 0;
 for(var k in sales) {
@@ -45,7 +45,7 @@ Given the same dataset, multiply each sales number for each person by 2 using [`
 
 Imperative solution:
 
-```
+```js
 for(var name in sales) {
   sales[name] *= 2;
 }
@@ -57,7 +57,7 @@ Now do the same thing without mutating the original object. You should check out
 
 Imperative solution:
 
-```
+```js
 var data = {};
 for(var name in sales) {
   data[name] = sales[name] * 2;

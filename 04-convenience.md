@@ -14,7 +14,7 @@ Here you can really start to see how functional programming can be far
 more concise and clear than imperative style. An imperative
 implementation would look like (requires declaring variables):
 
-```
+```js
 var data = [{ age: 15 }, { age: 18 }, { age: 30 }];
 
 var ages = [];

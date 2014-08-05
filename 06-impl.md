@@ -3,7 +3,7 @@
 
 Implement [`_.reduce`](http://underscorejs.org/#reduce). You are free to for loops if you want, or use `_.each`. The function will look like this:
 
-```
+```js
 function reduce(arr, func, start) {
   // code here
 }
@@ -11,7 +11,7 @@ function reduce(arr, func, start) {
 
 Use the following as a test case. This should print out `6`:
 
-```
+```js
 console.log(reduce([1,2,3], function(acc, x) {
   return acc + x;
 }, 0))

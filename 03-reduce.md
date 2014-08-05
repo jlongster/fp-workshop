@@ -9,7 +9,7 @@ contains the number of times each string occurred in the array.
 
 The imperative solution looks like this:
 
-```
+```js
 var strings = ["lorem", "ipsum", "lorem", "amet", "amet", "amet"];
 
 var counts = {};

@@ -3,7 +3,7 @@
 
 Convert the following code to use [`_.map`](http://underscorejs.org/#map).
 
-```
+```js
 function multiplyArray(arr, n) {
   var res = [];
   for(var i=0; i<arr.length; i++) {

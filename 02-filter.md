@@ -3,7 +3,7 @@
 
 You have an array of objects that each have a message field, like so:
 
-```
+```js
 var messages = [
     { message: 'Curabitur scelerisque leo hendrerit mauris tincidunt sodales.' },
     { message: 'Vestibulum sed magna id orci mollis pellentesque.' },
@@ -18,7 +18,7 @@ allowed. Hint: use `_.map` first and then `_.filter`.
 
 The imperative solution is:
 
-```
+```js
 var result = [];
 for(var i=0; i<messages.length; i++) {
   if(messages[i].message.length < 50) {
