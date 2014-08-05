@@ -61,3 +61,26 @@ var data = _.object(_.keys(sales), _.map(_.values(sales), function(x) {
   return x * 2;
 }));
 ```
+
+# 06-impl
+
+```
+function reduce(arr, func, start) {
+  var acc = start;
+  _.each(arr, function(item) {
+    acc = func(acc, item);
+  })
+  return acc;
+}
+```
+
+With recursion:
+
+```
+function reduce(arr, func, start) {
+  if(arr.length) {
+    return func(reduce(arr.slice(1), func, start), arr[0])
+  }
+  return start;
+}
+```
